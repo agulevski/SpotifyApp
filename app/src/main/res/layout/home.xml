@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/spotifyBG"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/HomeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/spotifyGray"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Home"
+        android:textColor="@color/white" />
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -7,8 +22,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/spotifyBG"
         android:orientation="vertical">
+
+
 
 
         <TextView
@@ -16,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Discover New Music"
+            android:text="Made For You"
             android:textColor="@color/white"
             android:textSize="36sp" />
 
@@ -95,27 +111,36 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/button15"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="Button" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button16"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="Button" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button17"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="Button" />
             </LinearLayout>
         </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Jump Back In"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -128,21 +153,80 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/button18"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="Button" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button19"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="Button" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button20"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="New Releases"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button11"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -150,19 +234,8 @@
             </LinearLayout>
         </HorizontalScrollView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Home fragment"
-                android:textSize="36sp" />
-        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
+
+</LinearLayout>
