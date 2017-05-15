@@ -4,6 +4,7 @@ package com.spotifyapp;
  * Created by Alexanders on 2017-05-14.
  */
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -12,13 +13,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-
-
 /**
  * Created by Alexanders on 2017-05-14.
  */
 
 public class HomeFragment extends Fragment {
+
+
 
     @Nullable
     @Override

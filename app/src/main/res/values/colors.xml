@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="spotifyBG">#121314</color>
     <color name="spotifyGray">#222326</color>
+    <color name="browseGradient">#52616f</color>
 </resources>
